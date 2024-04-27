@@ -6,3 +6,6 @@ The handwritten design
 
 ![Screenshot_20240427_114232_Samsung_Notes (1)](https://github.com/NadifRahman/Rock-Paper-Scisscors/assets/155865015/16975026-1a14-41d5-9551-89aea229aed1)
 
+Icon credits:
+Hand icons created by Cuputo: https://www.flaticon.com/free-icons/fist
+Question icons created by Dave Gandy: https://www.flaticon.com/free-icons/question
