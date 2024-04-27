@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src = "gamelogic.js" defer></script>
 </head>
-<body>
-    <script src = "gamelogic.js">
+    <body>
     
-    </script>
-</body>
+        <div id="gamebox">
+            <div class = "title">Rock Paper Scisscors</div>
+
+            <div class = "score=row">
+
+                <div class = "score-box human">
+                    <div class = "score-title human">Human</div>
+                    <img class = "hand human">
+                    <div class = "score human"></div>
+                </div>
+
+                <div class = "score-box computer">
+                    <div class = "score-title computer">Computer</div>
+                    <img class = "hand computer">
+                    <div class = "score computer"></div>
+                </div>
+
+            </div>
+
+            <div class = "button-row">
+                <button id = "rock-button">Rock</button>
+                <button id = "paper-button">Paper</button>
+                <button id = "scisscor-button">Scisscors</button>
+            </div>
+
+            <div class = "status"></div>
+
+            <button id = "reset">Reset</button>
+
+
+            <!-- <a href="https://www.flaticon.com/free-icons/fist" title="fist icons">Fist icons created by Cuputo - Flaticon</a> -->
+        </div>
+
+
+    </body>
 </html>
