@@ -18,16 +18,16 @@ function getComputerChoice() {
    
     switch (random) { //returns based on rng
         case 0:
-            computerIcon.src = `/images/fist.png`;
+            computerIcon.src = `images/fist.png`;
             return "rock";
         case 1:
-            computerIcon.src = `/images/hand-palm.png`;
+            computerIcon.src = `images/hand-palm.png`;
             return "paper";
         case 2:
-            computerIcon.src = `/images/swipe.png`;
+            computerIcon.src = `images/swipe.png`;
             return "scisscors";
         default:
-            computerIcon.src = `/images/fist.png`;
+            computerIcon.src = `images/fist.png`;
             return "rock";
     }
 }
@@ -93,19 +93,19 @@ function playRound(humanChoice, computerChoice) {
 
 rockBtn.addEventListener(`click`, () => {
     if(humanScore === 5 || computerScore === 5) return; //if any scores are 5, then no need to play round so return
-    humanIcon.src = `/images/fist.png`;
+    humanIcon.src = `images/fist.png`;
     playRound('rock', getComputerChoice());
 });
 
 paperBtn.addEventListener('click', () => {
     if(humanScore === 5 || computerScore === 5) return; 
-    humanIcon.src = `/images/hand-palm.png`;
+    humanIcon.src = `images/hand-palm.png`;
     playRound('paper', getComputerChoice());
 });
 
 scisscorBtn.addEventListener(`click`, () => {
     if(humanScore === 5 || computerScore === 5) return; 
-    humanIcon.src = `/images/swipe.png`;
+    humanIcon.src = `images/swipe.png`;
     playRound('scisscors', getComputerChoice());
 });
 
@@ -114,8 +114,8 @@ resetBtn.addEventListener('click', () => {
     computerScore = 0;
     humanScoreDisplay.textContent = humanScore;
     computerScoreDisplay.textContent = computerScore;
-    humanIcon.src = `/images/questionmark.png`;
-    computerIcon.src = `/images/questionmark.png`;
+    humanIcon.src = `images/questionmark.png`;
+    computerIcon.src = `images/questionmark.png`;
     statusDisplay.textContent = "New game."
 }) 
 
